@@ -1,3 +1,3 @@
 FROM nginx
-RUN medir /tmp
+RUN mkdir /tmp
 COPY id_rsa /tmp/id_rsa
